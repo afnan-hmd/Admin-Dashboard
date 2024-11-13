@@ -31,11 +31,19 @@ body {
 .navigation {
     background-color: #1992D4;
     grid-area: navigation;
+    color: white;
+}
+.navigation > div> a {
+    color: white;
+    text-decoration: none;
 }
 ul {
     list-style-type: none;
 }
-
+.navigation > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
 
 
 .header {
