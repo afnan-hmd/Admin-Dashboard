@@ -67,7 +67,6 @@ body {
     font-weight: bold;
     display: grid;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1.5fr; */
     grid-template-areas:
         'top-header'
         'bottom-header';
@@ -161,6 +160,7 @@ body {
     border-radius: 6px;
     width: 100%;
     padding: 20px 20px;
+    box-shadow:  2px 3px 3px #d1d1d1;
 }
 .project-description {
     font-weight: normal;
@@ -183,27 +183,47 @@ body {
     background-color: #E2E8F0;
     grid-area: sidebar;
     padding: 12px;
+    padding-right: 20px;
     font-weight: 500;
     display: grid;
 }
-.announcements {
+
+.announcements, .trending {
     background-color: white;
     margin-top: 10px;
     border-radius: 6px;
-    padding: 20px;
+    padding: 10px 20px;
     font-size: 0.8rem;
-    
+    box-shadow:  2px 3px 3px #d1d1d1;
 }
 .announcement:not(:last-child) {
     border-bottom: 1px solid rgb(196, 196, 196);
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .announcement:is(:last-child) {
-    padding-top: 9px;
+    padding-top: 10px;
 }
 .announcement-content {
     font-size: 0.6rem;
+    font-weight: normal;
+    color: #636363;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+#avatar-trend {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.trend-bio {
     font-weight: normal;
     color: #636363;
 }
