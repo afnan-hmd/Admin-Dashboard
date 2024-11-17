@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let cardData = [];
 
     function fetchData() {
-        return fetch('https://github.com/afnan-hmd/Admin-Dashboard/blob/main/assets/data/cardInfo.json')
+        return fetch('https://raw.githubusercontent.com//afnan-hmd/Admin-Dashboard/main/assets/data/cardInfo.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('fetch response error')
