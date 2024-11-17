@@ -1,0 +1,17 @@
+{
+    "announcements": [
+      {
+        "title": "Site Maintenance",
+        "content": "This is the first announcement content. We're excited to share this with you!"
+      },
+      {
+        "title": "Community Share Day",
+        "content": "Here comes the second announcement. Stay tuned for more updates!"
+      },
+      {
+        "title": "Updated Privacy Policy",
+        "content": "This is the third announcement. We've got some exciting news coming soon!"
+      }
+    ]
+  }
+  
