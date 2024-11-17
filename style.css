@@ -138,6 +138,7 @@ body {
 }
 
 
+
 .main {
     background-color: #E2E8F0;
     grid-area: main;
@@ -150,7 +151,7 @@ body {
     /* grid-template-rows: auto; */
     grid-auto-flow: row;
     grid-auto-rows: auto;
-    gap: 50px;
+    gap: 20px;
 }
 .project-card {
     position: relative;
@@ -175,7 +176,17 @@ body {
     gap: 20px;
 }
 
+
+
 .sidebar {
-    background-color: rgb(59, 59, 59);
+    background-color: #E2E8F0;
     grid-area: sidebar;
+    padding: 12px;
+    font-weight: 500;
+    display: grid;
+}
+.announcements {
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
 }
