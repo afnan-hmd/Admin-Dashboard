@@ -12,8 +12,9 @@ a {
     text-decoration: none;
 }
 li, ul {
+    list-style-type: none;
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 body {
     line-height: 1.5;
@@ -48,8 +49,7 @@ body {
     color: white;
     font-size: 1.5rem;
 }
-ul {
-    list-style-type: none;
+.navigation > ul {
     margin-top: 40px;
 }
 .navigation > ul > li {
@@ -64,6 +64,7 @@ ul {
 .header {
     background-color: white;
     grid-area: header;
+    font-weight: bold;
     display: grid;
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1.5fr; */
@@ -81,6 +82,8 @@ ul {
 }
 .top-header {
     grid-area: top-header;
+    margin: 0;
+    padding-top: 10px;
 }
 .bottom-header{
     grid-area: bottom-header;
@@ -110,6 +113,9 @@ ul {
     grid-template-areas: 
     'avatar greeting'
     'avatar username';
+    & .greeting {
+        font-weight: normal;
+    }
 }
 #avatar {
     grid-area: avatar;
