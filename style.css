@@ -142,14 +142,28 @@ body {
     background-color: #E2E8F0;
     grid-area: main;
     padding: 12px;
+    font-weight: 500;
 }
 .project-card {
     background-color: white;
-    border-left: solid goldenrod thick;
+    border-left: solid #F0B429 thick;
     border-radius: 6px;
     width: 33ch;
+    padding: 20px 20px;
 }
-
+.project-description {
+    font-weight: normal;
+    color: #636363;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.project-action-btns {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: end;
+    /* margin: 20px; */
+    gap: 20px;
+}
 
 .sidebar {
     background-color: rgb(59, 59, 59);
