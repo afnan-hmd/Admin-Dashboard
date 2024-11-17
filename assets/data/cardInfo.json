@@ -1,29 +1,34 @@
 {
-    "projects": [
-      {
-        "title": "Project Alpha",
-        "description": "This is a description for Project Alpha. It covers the key features and goals of the project."
-      },
-      {
-        "title": "Project Beta",
-        "description": "This is a description for Project Beta. It provides insights into the project's scope and deliverables."
-      },
-      {
-        "title": "Project Gamma",
-        "description": "This is a description for Project Gamma. The project aims to improve user experience and system efficiency."
-      },
-      {
-        "title": "Project Delta",
-        "description": "This is a description for Project Delta. It focuses on optimizing backend performance and scalability."
-      },
-      {
-        "title": "Project Epsilon",
-        "description": "This is a description for Project Epsilon. It explores new technologies and trends in the industry."
-      },
-      {
-        "title": "Project Zeta",
-        "description": "This is a description for Project Zeta. It strives to create an intuitive UI and seamless user interactions."
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project Alpha",
+      "description": "This is a description for Project Alpha. It covers the key features and goals of the project."
+    },
+    {
+      "id": 2,
+      "title": "Project Beta",
+      "description": "This is a description for Project Beta. It provides insights into the project's scope and deliverables."
+    },
+    {
+      "id": 3,
+      "title": "Project Gamma",
+      "description": "This is a description for Project Gamma. The project aims to improve user experience and system efficiency."
+    },
+    {
+      "id": 4,
+      "title": "Project Delta",
+      "description": "This is a description for Project Delta. It focuses on optimizing backend performance and scalability."
+    },
+    {
+      "id": 5,
+      "title": "Project Epsilon",
+      "description": "This is a description for Project Epsilon. It explores new technologies and trends in the industry."
+    },
+    {
+      "id": 6,
+      "title": "Project Zeta",
+      "description": "This is a description for Project Zeta. It strives to create an intuitive UI and seamless user interactions."
+    }
+  ]
+}
