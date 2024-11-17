@@ -141,8 +141,14 @@ body {
 .main {
     background-color: #E2E8F0;
     grid-area: main;
+    padding: 12px;
 }
-
+.project-card {
+    background-color: white;
+    border-left: solid goldenrod thick;
+    border-radius: 6px;
+    width: 33ch;
+}
 
 
 .sidebar {
