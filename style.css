@@ -192,6 +192,15 @@ body {
     border-radius: 6px;
     padding: 20px;
     font-size: 0.8rem;
+    
+}
+.announcement:not(:last-child) {
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.announcement:is(:last-child) {
+    padding-top: 9px;
 }
 .announcement-content {
     font-size: 0.6rem;
