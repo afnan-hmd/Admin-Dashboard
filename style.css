@@ -83,6 +83,8 @@ body {
     grid-area: top-header;
     margin: 0;
     padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 20px;
 }
 .bottom-header{
     grid-area: bottom-header;
@@ -92,6 +94,10 @@ body {
     gap: 20px;
 }
 #search-bar {
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+    align-items: center;
     & input {
         border: solid 1px gray;
         height: 2rem;
@@ -104,6 +110,9 @@ body {
     width: 30px;
     border-radius: 50%;
 }
+/* .notif-toggle {
+    float: right;
+} */
 
 .user-greetings {
     display: grid;
@@ -112,8 +121,9 @@ body {
     grid-template-areas: 
     'avatar greeting'
     'avatar username';
+    align-items: center;
     & .greeting {
-        font-weight: normal;
+        font-size: 0.7rem;
     }
 }
 #avatar {
