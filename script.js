@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function fetchAnnouncementData() {
-        return fetch('/assets/data/announcementsInfo.json')
+        return fetch('https://raw.githubusercontent.com/afnan-hmd/Admin-Dashboard/main/assets/data/announcementsInfo.json')
         .then(res => {
             if(!res.ok) {
                 throw new Error('announecement - fetch response error')
